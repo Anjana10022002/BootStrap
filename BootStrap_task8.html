@@ -3,99 +3,39 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-	<title></title>
+	<title>New Task</title>
+
 	<style type="text/css">
-		img{
-			height: 300px;
-		    width: 200px;   
-		}
-		body{
-			padding: 30px;
+		div {
+			background-color: #eee;
+			width: 400px;
+			height: 100px;
+			border: 1px solid black;
+			overflow: hidden;
+			text-align: center;
+			margin: auto;
+			}
+		button{
+			position: fixed;
+		    width:200px;
+		    border:5px solid black;
 		}
 	</style>
+
 </head>
 <body>
-	<div class="alert alert-success alert-dismissible fade show"><button type="button" class="close" data-dismiss="alert">&times;</button> <strong>Jurassic Park:</strong> Book has been returned successfully.</div>
-	<div class="alert alert-warning alert-dismissible fade show"><button type="button" class="close" data-dismiss="alert">&times;</button> <strong>The Great Gatsby:</strong> Book return is pending.</div>
-	<div class="alert alert-warning alert-dismissible fade show"><button type="button" class="close" data-dismiss="alert">&times;</button> <strong>Invisible Man:</strong> Book return is pending.</div>
-	<div class="alert alert-danger alert-dismissible fade show"><button type="button" class="close" data-dismiss="alert">&times;</button>The Godfather:</strong> Book has not been returned.</div>
+	<div>Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a  language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[2] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[3]
 
-	<div class="container-fluid">
-	  <div class="row justify-content-center text-center">
-	    <div class="col-12 col-sm-6 col-lg-3 mb-3">
-	      <img src="https://m.media-amazon.com/images/I/61nza6+7wdL._UF1000,1000_QL80_.jpg">
-	    </div>
-	    <div class="col-12 col-sm-6 col-lg-3 mb-3">
-	      <img src="https://www.creatopy.com/blog/wp-content/uploads/2020/08/The-Godfather-Book-Cover-399x600.jpg" class="img-fluid">
-	    </div>
-	    <div class="col-12 col-sm-6 col-lg-3 mb-3">
-	      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIP0J5kSGKGkDgBc1CuNcq5IeEYx89MQ_O7RDUKa8xn9x4_yvFZBclxcK1U3Jz0n_LyRU&usqp=CAU" class="img-fluid">
-	    </div>
-	    <div class="col-12 col-sm-6 col-lg-3 mb-3">
-	      <img src="https://www.creatopy.com/blog/wp-content/uploads/2020/08/The-Invisible-Man-Book-Cover-385x600.jpg" class="img-fluid">
-	    </div>
-	  </div>
-	</div>
+	CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[4] This separation can improve content accessibility, since the content can be written without concern for its presentation; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.
 
-	<table class="table table-bordered">
-		<thead>
-			<th>Title of book</th>
-			<th>Author</th>
-			<th>Date</th>
-			<th>Return date</th>
-			<th>Price</th>
-			<th>Status</th>
-			<th>Name of person</th>
-		</thead>
-		<tbody>
-			<tr class="table-success">
-				<td>Jurassic Park</td>
-				<td>Michael Crichton</td>
-				<td>10/07/2025</td>
-				<td>10/08/2025</td>
-				<td>500</td>
-				<td>Returned</td>
-				<td>John</td>
-			</tr>
-		</tbody>
-		<tbody>
-			<tr  class="table-danger">
-				<td>The godfather</td>
-				<td>Mario Puzo</td>
-				<td>01/06/2025</td>
-				<td>01/07/2025</td>
-				<td>700</td>
-				<td>Not Returened</td>
-				<td>Alex</td>
-			</tr>
-		</tbody>
-		<tbody>
-			<tr class="table-warning">
-				<td>The Great Gatsby</td>
-				<td>F Scott Fitzgerald</td>
-				<td>15/06/2025</td>
-				<td>15/07/2025</td>
-				<td>750</td>
-				<td>Pending</td>
-				<td>Sam</td>
-			</tr>
-		</tbody>
-		<tbody>
-			<tr class="table-warning">
-				<td>Invisible Man</td>
-				<td>Ralph Ellison</td>
-				<td>15/06/2025</td>
-				<td>15/07/2025</td>
-				<td>800</td>
-				<td>Pending</td>
-				<td>Ram</td>
-			</tr>
-		</tbody>
+	Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternative formatting if the content is accessed on a mobile device.[5]</div>
+	<button>click here to top</button>
+	<!-- <p>Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[2] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[3]
 
-	</table>
+	CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[4] This separation can improve content accessibility, since the content can be written without concern for its presentation; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.
+
+	Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternative formatting if the content is accessed on a mobile device.[5]</p>
+ -->
+
 </body>
 </html>
